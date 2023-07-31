@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-family: "Source Code Pro", monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Menu de Navegação */
+
+.navbar-brand span {
+    font-family: "Raleway", sans-serif;
+    color: #2C74C6;
+    font-weight: 500;
+}
+
+.navbar-nav a {
+    font-size: 12px;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: #2C74C6;
+    font-weight: 900;
+}
+
+
