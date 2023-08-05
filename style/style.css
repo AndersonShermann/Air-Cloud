@@ -58,4 +58,21 @@ footer {
     font-weight: 600;
 }
 
+/* Cards */
+
+.card-img-top:hover {
+    transition: 1s ease-in-out;
+    filter: blur(3px);
+}
+
+.card {
+    transform: scale(.9);
+    box-shadow: 10px 10px 5px #00000080;
+}
+
+.card:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.1) rotateZ(-5deg);
+    box-shadow: -10px 10px 20px #00000080;
+}
 
